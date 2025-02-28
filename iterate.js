@@ -8,10 +8,36 @@ for (let numbers of num) {
 
 // callbacks - more efficient than loops
 // forEach()
+const numbers = [
+  {
+    userId: 1,
+    id: 1,
+    title: "delectus aut autem",
+    completed: false,
+  },
+  {
+    userId: 2,
+    id: 1,
+    title: "delectus aut autem",
+    completed: false,
+  },
+  {
+    userId: 3,
+    id: 1,
+    title: "delectus aut autem",
+    completed: false,
+  },
+];
+// loops
+// for loop
+// for in
+// while
+
 num.forEach(function (i, numbers) {
   console.log(i, numbers);
 });
 const username = ["shahid", "ali"];
+
 // join() => array converted to string
 const joined = username.join(",");
 console.log(typeof joined);
